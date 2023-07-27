@@ -2,12 +2,8 @@
  * @Author: Hivan Du
  * @mail: doo@hivan.me
  * @LastEditors: Hivan Du
- * @LastEditTime: 2023-07-27 20:03:15
+ * @LastEditTime: 2023-07-27 20:04:55
 -->
----
-title: AI秘籍预告
-date: 2023-07-27 14:13:06
----
 
 Hi, 大家好，我是茶桁，这里为自己做个广告，目前打算开始写一整个系列《AI秘籍》。
 
