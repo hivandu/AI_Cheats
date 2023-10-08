@@ -2,10 +2,10 @@
  * @Author: Hivan Du
  * @mail: doo@hivan.me
  * @LastEditors: Hivan Du
- * @LastEditTime: 2023-07-27 20:04:55
+ * @LastEditTime: 2023-10-04 21:39:39
 -->
 
-Hi, 大家好，我是茶桁，这里为自己做个广告，目前打算开始写一整个系列《AI秘籍》。
+Hi, 大家好，我是茶桁，这里为自己做个广告，目前打算开始写一整个系列《茶桁的AI秘籍》。
 
 这一段时间内我写过一个系列[《零基础学习大语言模型》](https://hivan.me/categories/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%8E%A5%E8%A7%A6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B/)（目前还没写完）。
 
@@ -15,19 +15,31 @@ Hi, 大家好，我是茶桁，这里为自己做个广告，目前打算开始�
 
 说说这个专栏本身，参照我几个自媒体平台的数据来看，Python的基础知识还是更受欢迎一点，我想大概也是更多基础不太好的小伙伴希望能入行吧。所以这次我准备从基础开始写起，总的来说分成以下几个大的篇章：
 
-- 第一卷：Python
+- 第一卷：Python ✅
 - 第二卷：核心知识
 - 第三卷：核心能力培养
 - 第四卷：NLP
 - 第五卷：BI
 - 第六卷：CV
-- 第七卷：扩展 - 数学
-- 第八卷：扩展 - 英语
+- 第七卷：扩展 - 数学 ✅
+- 第八卷：扩展 - 英语 （放弃，本人英语不太好）
 
 大致的算了一下，可能这个系列会耗费比较长的时间和精力，也希望小伙伴们能多多支持。
 
-在这里，放上我的公众号订阅方式：
+在这里，放上各处阅读方式：
+
+
+### 公众号订阅方式：
 
 ![欢迎订阅：坍缩的奇点ss](https://qiniu.hivan.me/picGo/20230727142457.png?imgNote)
+
+### [CSDN上进行查看](https://blog.csdn.net/ivandoo)
+- [Python部分](https://blog.csdn.net/ivandoo/category_12395294.html)
+- [数学部分](https://blog.csdn.net/ivandoo/category_12420668.html)
+- [核心基础](https://blog.csdn.net/ivandoo/category_12454445.html)
+
+### 方格子
+
+[茶桁的AI秘籍](https://vocus.cc/ai_cheats/introduce)
 
 > 最后，找到合适的订阅平台之后，本篇内容应该会有更新。
