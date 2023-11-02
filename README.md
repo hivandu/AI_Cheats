@@ -42,9 +42,7 @@
 
 - [Python 篇](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4NzE4MDQzMg==&action=getalbum&album_id=3035995870421073928#wechat_redirect)
 - [数学篇](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4NzE4MDQzMg==&action=getalbum&album_id=3074770001140400130#wechat_redirect)
-- 
-
-![欢迎订阅：坍缩的奇点](assets/Capture-2023-11-02-164446.png)
+- [核心基础](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4NzE4MDQzMg==&action=getalbum&album_id=3123885735829061633#wechat_redirect)
 
 ### [CSDN上进行查看](https://blog.csdn.net/ivandoo)
 - [Python部分](https://blog.csdn.net/ivandoo/category_12395294.html)
