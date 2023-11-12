@@ -1,2 +1,8 @@
+# files
 .DS_Store
 .ipynb_checkpoints/
+*.gz
+
+
+# dataset
+./cifar-10-batches-py/
