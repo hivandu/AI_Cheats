@@ -1,0 +1,587 @@
+# Notes for resnet un-pretrained
+
+0it [00:00, ?it/s]
+ic| epoch: 0, i: 0
+1it [00:53, 53.71s/it]ic| epoch: 0, i: 1
+2it [01:42, 50.98s/it]
+Epoch: 0 batch: 1, loss ==> 4.71190333366394
+ic| epoch: 0, i: 2
+3it [02:34, 51.41s/it]
+Epoch: 0 batch: 2, loss ==> 3.5304853916168213
+ic| epoch: 0, i: 3
+4it [03:24, 50.64s/it]
+Epoch: 0 batch: 3, loss ==> 3.1322852770487466
+ic| epoch: 0, i: 4
+5it [04:27, 55.08s/it]
+Epoch: 0 batch: 4, loss ==> 2.9313721656799316
+ic| epoch: 0, i: 5
+6it [05:19, 54.10s/it]
+Epoch: 0 batch: 5, loss ==> 2.80932559967041
+ic| epoch: 0, i: 6
+7it [06:12, 53.85s/it]
+Epoch: 0 batch: 6, loss ==> 2.724887569745382
+ic| epoch: 0, i: 7
+8it [07:01, 52.27s/it]
+Epoch: 0 batch: 7, loss ==> 2.6594687529972623
+ic| epoch: 0, i: 8
+9it [07:53, 52.09s/it]
+Epoch: 0 batch: 8, loss ==> 2.611832559108734
+ic| epoch: 0, i: 9
+10it [08:43, 51.49s/it]
+Epoch: 0 batch: 9, loss ==> 2.5718351470099554
+ic| epoch: 0, i: 10
+11it [09:33, 50.99s/it]
+Epoch: 0 batch: 10, loss ==> 2.5409873485565186
+ic| epoch: 0, i: 11
+12it [10:21, 50.31s/it]
+Epoch: 0 batch: 11, loss ==> 2.514527364210649
+ic| epoch: 0, i: 12
+13it [11:13, 50.62s/it]
+Epoch: 0 batch: 12, loss ==> 2.4901963273684182
+ic| epoch: 0, i: 13
+14it [12:01, 49.75s/it]
+Epoch: 0 batch: 13, loss ==> 2.4703069833608775
+ic| epoch: 0, i: 14
+15it [12:47, 48.80s/it]
+Epoch: 0 batch: 14, loss ==> 2.4517116716929843
+ic| epoch: 0, i: 15
+16it [13:39, 49.67s/it]
+Epoch: 0 batch: 15, loss ==> 2.436237017313639
+ic| epoch: 0, i: 16
+17it [14:25, 48.71s/it]
+Epoch: 0 batch: 16, loss ==> 2.4217631965875626
+ic| epoch: 0, i: 17
+18it [15:11, 47.75s/it]
+Epoch: 0 batch: 17, loss ==> 2.4086102457607494
+ic| epoch: 0, i: 18
+19it [15:55, 46.76s/it]
+Epoch: 0 batch: 18, loss ==> 2.39659403430091
+ic| epoch: 0, i: 19
+20it [16:39, 45.93s/it]
+Epoch: 0 batch: 19, loss ==> 2.386838850222136
+ic| epoch: 0, i: 20
+21it [17:22, 44.99s/it]
+Epoch: 0 batch: 20, loss ==> 2.37619606256485
+ic| epoch: 0, i: 21
+22it [18:06, 44.68s/it]
+Epoch: 0 batch: 21, loss ==> 2.367302349635533
+ic| epoch: 0, i: 22
+23it [18:52, 45.06s/it]
+Epoch: 0 batch: 22, loss ==> 2.3585871024565264
+ic| epoch: 0, i: 23
+24it [19:37, 45.02s/it]
+Epoch: 0 batch: 23, loss ==> 2.35042056830033
+ic| epoch: 0, i: 24
+25it [20:22, 45.09s/it]
+Epoch: 0 batch: 24, loss ==> 2.341651181379954
+ic| epoch: 0, i: 25
+26it [21:08, 45.26s/it]
+Epoch: 0 batch: 25, loss ==> 2.334045820236206
+ic| epoch: 0, i: 26
+27it [21:52, 45.00s/it]
+Epoch: 0 batch: 26, loss ==> 2.326741392795856
+ic| epoch: 0, i: 27
+28it [22:41, 45.99s/it]
+Epoch: 0 batch: 27, loss ==> 2.3204869429270425
+ic| epoch: 0, i: 28
+29it [23:30, 46.94s/it]
+Epoch: 0 batch: 28, loss ==> 2.3130599430629184
+ic| epoch: 0, i: 29
+30it [24:18, 47.26s/it]
+Epoch: 0 batch: 29, loss ==> 2.307759671375669
+ic| epoch: 0, i: 30
+31it [25:02, 46.50s/it]
+Epoch: 0 batch: 30, loss ==> 2.302063258488973
+ic| epoch: 0, i: 31
+32it [25:47, 45.99s/it]
+Epoch: 0 batch: 31, loss ==> 2.295987390702771
+ic| epoch: 0, i: 32
+33it [26:31, 45.38s/it]
+Epoch: 0 batch: 32, loss ==> 2.289892889559269
+ic| epoch: 0, i: 33
+34it [27:17, 45.39s/it]
+Epoch: 0 batch: 33, loss ==> 2.2826380657427237
+ic| epoch: 0, i: 34
+35it [28:00, 44.87s/it]
+Epoch: 0 batch: 34, loss ==> 2.2767320099998924
+ic| epoch: 0, i: 35
+36it [28:46, 45.14s/it]
+Epoch: 0 batch: 35, loss ==> 2.2712645394461495
+ic| epoch: 0, i: 36
+37it [29:33, 45.79s/it]
+Epoch: 0 batch: 36, loss ==> 2.266699645254347
+ic| epoch: 0, i: 37
+38it [30:21, 46.24s/it]
+Epoch: 0 batch: 37, loss ==> 2.261619535652367
+ic| epoch: 0, i: 38
+39it [31:05, 45.76s/it]
+Epoch: 0 batch: 38, loss ==> 2.256165667584068
+ic| epoch: 0, i: 39
+40it [31:50, 45.51s/it]
+Epoch: 0 batch: 39, loss ==> 2.251696941180107
+ic| epoch: 0, i: 40
+41it [32:33, 44.78s/it]
+Epoch: 0 batch: 40, loss ==> 2.2460859298706053
+ic| epoch: 0, i: 41
+42it [33:19, 45.08s/it]
+Epoch: 0 batch: 41, loss ==> 2.241600792582442
+ic| epoch: 0, i: 42
+43it [34:02, 44.46s/it]
+Epoch: 0 batch: 42, loss ==> 2.2368480194182623
+ic| epoch: 0, i: 43
+44it [34:50, 45.60s/it]
+Epoch: 0 batch: 43, loss ==> 2.2320684943088267
+ic| epoch: 0, i: 44
+45it [35:34, 44.96s/it]
+Epoch: 0 batch: 44, loss ==> 2.2266444049098273
+ic| epoch: 0, i: 45
+46it [36:19, 45.08s/it]
+Epoch: 0 batch: 45, loss ==> 2.223144883579678
+ic| epoch: 0, i: 46
+47it [37:03, 44.77s/it]
+Epoch: 0 batch: 46, loss ==> 2.218119255874468
+ic| epoch: 0, i: 47
+48it [37:47, 44.40s/it]
+Epoch: 0 batch: 47, loss ==> 2.2131983422218484
+ic| epoch: 0, i: 48
+49it [38:32, 44.54s/it]
+Epoch: 0 batch: 48, loss ==> 2.2091027051210403
+ic| epoch: 0, i: 49
+50it [39:18, 45.01s/it]
+Epoch: 0 batch: 49, loss ==> 2.2052261440121397
+ic| epoch: 0, i: 50
+51it [40:04, 45.47s/it]
+Epoch: 0 batch: 50, loss ==> 2.200854444503784
+ic| epoch: 0, i: 51
+52it [40:49, 45.27s/it]
+Epoch: 0 batch: 51, loss ==> 2.1968946830899108
+ic| epoch: 0, i: 52
+53it [41:32, 44.44s/it]
+Epoch: 0 batch: 52, loss ==> 2.19290459385285
+ic| epoch: 0, i: 53
+54it [42:15, 44.10s/it]
+Epoch: 0 batch: 53, loss ==> 2.1888984261818654
+ic| epoch: 0, i: 54
+55it [42:59, 44.09s/it]
+Epoch: 0 batch: 54, loss ==> 2.18498616527628
+ic| epoch: 0, i: 55
+56it [43:42, 43.74s/it]
+Epoch: 0 batch: 55, loss ==> 2.1808758063749836
+ic| epoch: 0, i: 56
+57it [44:25, 43.66s/it]
+Epoch: 0 batch: 56, loss ==> 2.1770583050591603
+ic| epoch: 0, i: 57
+58it [45:10, 43.84s/it]
+Epoch: 0 batch: 57, loss ==> 2.173785738777696
+ic| epoch: 0, i: 58
+59it [45:53, 43.66s/it]
+Epoch: 0 batch: 58, loss ==> 2.170528465303881
+ic| epoch: 0, i: 59
+60it [46:38, 44.01s/it]
+Epoch: 0 batch: 59, loss ==> 2.1671354245331327
+ic| epoch: 0, i: 60
+61it [47:22, 44.03s/it]
+Epoch: 0 batch: 60, loss ==> 2.163627364238103
+ic| epoch: 0, i: 61
+62it [48:07, 44.29s/it]
+Epoch: 0 batch: 61, loss ==> 2.160445352069667
+ic| epoch: 0, i: 62
+63it [48:51, 44.43s/it]
+Epoch: 0 batch: 62, loss ==> 2.158264196688129
+ic| epoch: 0, i: 63
+64it [49:36, 44.38s/it]
+Epoch: 0 batch: 63, loss ==> 2.1549716544529747
+ic| epoch: 0, i: 64
+65it [50:19, 44.00s/it]
+Epoch: 0 batch: 64, loss ==> 2.1517843157052994
+ic| epoch: 0, i: 65
+66it [51:03, 43.95s/it]
+Epoch: 0 batch: 65, loss ==> 2.1484318751555223
+ic| epoch: 0, i: 66
+67it [51:47, 43.98s/it]
+Epoch: 0 batch: 66, loss ==> 2.145440663352157
+ic| epoch: 0, i: 67
+68it [52:32, 44.40s/it]
+Epoch: 0 batch: 67, loss ==> 2.142057443732646
+ic| epoch: 0, i: 68
+69it [53:15, 44.07s/it]
+Epoch: 0 batch: 68, loss ==> 2.1390876401873196
+ic| epoch: 0, i: 69
+70it [54:02, 44.98s/it]
+Epoch: 0 batch: 69, loss ==> 2.135361217070317
+ic| epoch: 0, i: 70
+71it [54:52, 46.51s/it]
+Epoch: 0 batch: 70, loss ==> 2.132345492499215
+ic| epoch: 0, i: 71
+72it [55:36, 45.61s/it]
+Epoch: 0 batch: 71, loss ==> 2.129328272712063
+ic| epoch: 0, i: 72
+73it [56:19, 44.87s/it]
+Epoch: 0 batch: 72, loss ==> 2.1266835166348352
+ic| epoch: 0, i: 73
+74it [57:03, 44.69s/it]
+Epoch: 0 batch: 73, loss ==> 2.1244267225265503
+ic| epoch: 0, i: 74
+75it [57:46, 44.11s/it]
+Epoch: 0 batch: 74, loss ==> 2.1219456920752653
+ic| epoch: 0, i: 75
+76it [58:31, 44.21s/it]
+Epoch: 0 batch: 75, loss ==> 2.1190514039993285
+ic| epoch: 0, i: 76
+77it [59:14, 44.05s/it]
+Epoch: 0 batch: 76, loss ==> 2.116358294298774
+ic| epoch: 0, i: 77
+78it [59:59, 44.23s/it]
+Epoch: 0 batch: 77, loss ==> 2.1141667536326816
+ic| epoch: 0, i: 78
+79it [1:00:44, 44.44s/it]
+Epoch: 0 batch: 78, loss ==> 2.110987427907112
+ic| epoch: 0, i: 79
+80it [1:01:28, 44.41s/it]
+Epoch: 0 batch: 79, loss ==> 2.109009157253217
+ic| epoch: 0, i: 80
+81it [1:02:12, 44.18s/it]
+Epoch: 0 batch: 80, loss ==> 2.1065234944224356
+ic| epoch: 0, i: 81
+82it [1:02:56, 44.10s/it]
+Epoch: 0 batch: 81, loss ==> 2.1035604844858615
+ic| epoch: 0, i: 82
+83it [1:03:40, 44.05s/it]
+Epoch: 0 batch: 82, loss ==> 2.1008111921752373
+ic| epoch: 0, i: 83
+84it [1:04:24, 44.05s/it]
+Epoch: 0 batch: 83, loss ==> 2.098603206944753
+ic| epoch: 0, i: 84
+85it [1:05:07, 43.85s/it]
+Epoch: 0 batch: 84, loss ==> 2.095883223272505
+ic| epoch: 0, i: 85
+86it [1:05:52, 44.06s/it]
+Epoch: 0 batch: 85, loss ==> 2.0932058670941522
+ic| epoch: 0, i: 86
+87it [1:06:35, 43.70s/it]
+Epoch: 0 batch: 86, loss ==> 2.090349911257278
+ic| epoch: 0, i: 87
+88it [1:07:18, 43.75s/it]
+Epoch: 0 batch: 87, loss ==> 2.0874205032984414
+ic| epoch: 0, i: 88
+89it [1:08:03, 43.89s/it]
+Epoch: 0 batch: 88, loss ==> 2.084867824207653
+ic| epoch: 0, i: 89
+90it [1:08:46, 43.78s/it]
+Epoch: 0 batch: 89, loss ==> 2.082565236627386
+ic| epoch: 0, i: 90
+91it [1:09:31, 44.06s/it]
+Epoch: 0 batch: 90, loss ==> 2.079945943090651
+ic| epoch: 0, i: 91
+92it [1:10:17, 44.56s/it]
+Epoch: 0 batch: 91, loss ==> 2.0777825090911364
+ic| epoch: 0, i: 92
+93it [1:11:01, 44.39s/it]
+Epoch: 0 batch: 92, loss ==> 2.0751528688099072
+ic| epoch: 0, i: 93
+94it [1:11:45, 44.38s/it]
+Epoch: 0 batch: 93, loss ==> 2.0730410032374884
+ic| epoch: 0, i: 94
+95it [1:12:30, 44.61s/it]
+Epoch: 0 batch: 94, loss ==> 2.0705694213826606
+ic| epoch: 0, i: 95
+96it [1:13:15, 44.70s/it]
+Epoch: 0 batch: 95, loss ==> 2.068350500809519
+ic| epoch: 0, i: 96
+97it [1:14:00, 44.91s/it]
+Epoch: 0 batch: 96, loss ==> 2.0662637539207935
+ic| epoch: 0, i: 97
+98it [1:14:28, 45.59s/it]
+Epoch: 0 batch: 97, loss ==> 2.0635110361059916
+0it [00:00, ?it/s]ic| epoch: 1, i: 0
+1it [00:44, 44.79s/it]ic| epoch: 1, i: 1
+2it [01:28, 44.44s/it]
+Epoch: 1 batch: 1, loss ==> 3.6955792903900146
+ic| epoch: 1, i: 2
+3it [02:12, 44.22s/it]
+Epoch: 1 batch: 2, loss ==> 2.778281092643738
+ic| epoch: 1, i: 3
+4it [02:56, 43.88s/it]
+Epoch: 1 batch: 3, loss ==> 2.4657201766967773
+ic| epoch: 1, i: 4
+5it [03:39, 43.63s/it]
+Epoch: 1 batch: 4, loss ==> 2.304735630750656
+ic| epoch: 1, i: 5
+6it [04:24, 43.99s/it]
+Epoch: 1 batch: 5, loss ==> 2.206987166404724
+ic| epoch: 1, i: 6
+7it [05:08, 43.99s/it]
+Epoch: 1 batch: 6, loss ==> 2.139446039994558
+ic| epoch: 1, i: 7
+8it [05:51, 43.75s/it]
+Epoch: 1 batch: 7, loss ==> 2.0909062794276645
+ic| epoch: 1, i: 8
+9it [06:34, 43.61s/it]
+Epoch: 1 batch: 8, loss ==> 2.063493087887764
+ic| epoch: 1, i: 9
+10it [07:20, 44.28s/it]
+Epoch: 1 batch: 9, loss ==> 2.039023280143738
+ic| epoch: 1, i: 10
+11it [08:04, 44.30s/it]
+Epoch: 1 batch: 10, loss ==> 2.013779652118683
+ic| epoch: 1, i: 11
+12it [08:48, 43.98s/it]
+Epoch: 1 batch: 11, loss ==> 1.9954953302036633
+ic| epoch: 1, i: 12
+13it [09:30, 43.52s/it]
+Epoch: 1 batch: 12, loss ==> 1.980864256620407
+ic| epoch: 1, i: 13
+14it [10:14, 43.70s/it]
+Epoch: 1 batch: 13, loss ==> 1.9699250918168287
+ic| epoch: 1, i: 14
+15it [10:57, 43.45s/it]
+Epoch: 1 batch: 14, loss ==> 1.9557087591716222
+ic| epoch: 1, i: 15
+16it [11:40, 43.37s/it]
+Epoch: 1 batch: 15, loss ==> 1.9469576915105185
+ic| epoch: 1, i: 16
+17it [12:23, 43.32s/it]
+Epoch: 1 batch: 16, loss ==> 1.940050058066845
+ic| epoch: 1, i: 17
+18it [13:07, 43.48s/it]
+Epoch: 1 batch: 17, loss ==> 1.9291537158629473
+ic| epoch: 1, i: 18
+19it [13:50, 43.17s/it]
+Epoch: 1 batch: 18, loss ==> 1.9200297660297818
+ic| epoch: 1, i: 19
+20it [14:34, 43.64s/it]
+Epoch: 1 batch: 19, loss ==> 1.9116075478102033
+ic| epoch: 1, i: 20
+21it [15:18, 43.67s/it]
+Epoch: 1 batch: 20, loss ==> 1.9063023984432221
+ic| epoch: 1, i: 21
+22it [16:01, 43.44s/it]
+Epoch: 1 batch: 21, loss ==> 1.902688088871184
+ic| epoch: 1, i: 22
+23it [16:44, 43.31s/it]
+Epoch: 1 batch: 22, loss ==> 1.8979091806845232
+ic| epoch: 1, i: 23
+24it [17:27, 43.25s/it]
+Epoch: 1 batch: 23, loss ==> 1.894085396891055
+ic| epoch: 1, i: 24
+25it [18:10, 43.08s/it]
+Epoch: 1 batch: 24, loss ==> 1.8899194647868474
+ic| epoch: 1, i: 25
+26it [18:53, 43.13s/it]
+Epoch: 1 batch: 25, loss ==> 1.8854267692565918
+ic| epoch: 1, i: 26
+27it [19:37, 43.19s/it]
+Epoch: 1 batch: 26, loss ==> 1.8810923466315637
+ic| epoch: 1, i: 27
+28it [20:21, 43.61s/it]
+Epoch: 1 batch: 27, loss ==> 1.8778059791635584
+ic| epoch: 1, i: 28
+29it [21:05, 43.57s/it]
+Epoch: 1 batch: 28, loss ==> 1.8738042712211609
+ic| epoch: 1, i: 29
+30it [21:48, 43.48s/it]
+Epoch: 1 batch: 29, loss ==> 1.871866222085624
+ic| epoch: 1, i: 30
+31it [22:31, 43.24s/it]
+Epoch: 1 batch: 30, loss ==> 1.8703638474146524
+ic| epoch: 1, i: 31
+32it [23:14, 43.19s/it]
+Epoch: 1 batch: 31, loss ==> 1.86744265402517
+ic| epoch: 1, i: 32
+33it [23:58, 43.46s/it]
+Epoch: 1 batch: 32, loss ==> 1.8640976920723915
+ic| epoch: 1, i: 33
+34it [24:41, 43.29s/it]
+Epoch: 1 batch: 33, loss ==> 1.8609671014727969
+ic| epoch: 1, i: 34
+35it [25:28, 44.58s/it]
+Epoch: 1 batch: 34, loss ==> 1.858585403246038
+ic| epoch: 1, i: 35
+36it [26:15, 45.19s/it]
+Epoch: 1 batch: 35, loss ==> 1.8552187034061978
+ic| epoch: 1, i: 36
+37it [27:00, 45.07s/it]
+Epoch: 1 batch: 36, loss ==> 1.852252937025494
+ic| epoch: 1, i: 37
+38it [27:44, 44.77s/it]
+Epoch: 1 batch: 37, loss ==> 1.8511950583071322
+ic| epoch: 1, i: 38
+39it [28:28, 44.61s/it]
+Epoch: 1 batch: 38, loss ==> 1.8491659478137368
+ic| epoch: 1, i: 39
+40it [29:11, 44.02s/it]
+Epoch: 1 batch: 39, loss ==> 1.8473939345433161
+ic| epoch: 1, i: 40
+41it [29:56, 44.52s/it]
+Epoch: 1 batch: 40, loss ==> 1.8455059558153153
+ic| epoch: 1, i: 41
+42it [30:41, 44.75s/it]
+Epoch: 1 batch: 41, loss ==> 1.8430690416475621
+ic| epoch: 1, i: 42
+43it [31:26, 44.64s/it]
+Epoch: 1 batch: 42, loss ==> 1.8413698105585008
+ic| epoch: 1, i: 43
+44it [32:11, 44.67s/it]
+Epoch: 1 batch: 43, loss ==> 1.8408253941425057
+ic| epoch: 1, i: 44
+45it [32:55, 44.50s/it]
+Epoch: 1 batch: 44, loss ==> 1.8393376659263263
+ic| epoch: 1, i: 45
+46it [33:40, 44.65s/it]
+Epoch: 1 batch: 45, loss ==> 1.8364948670069376
+ic| epoch: 1, i: 46
+47it [34:22, 44.01s/it]
+Epoch: 1 batch: 46, loss ==> 1.8337543218032173
+ic| epoch: 1, i: 47
+48it [35:08, 44.68s/it]
+Epoch: 1 batch: 47, loss ==> 1.8326615500957408
+ic| epoch: 1, i: 48
+49it [35:52, 44.19s/it]
+Epoch: 1 batch: 48, loss ==> 1.8304321716229122
+ic| epoch: 1, i: 49
+50it [36:36, 44.41s/it]
+Epoch: 1 batch: 49, loss ==> 1.8300609588623047
+ic| epoch: 1, i: 50
+51it [37:21, 44.38s/it]
+Epoch: 1 batch: 50, loss ==> 1.8282390999794007
+ic| epoch: 1, i: 51
+52it [38:04, 44.10s/it]
+Epoch: 1 batch: 51, loss ==> 1.8268588594361848
+ic| epoch: 1, i: 52
+53it [38:48, 43.92s/it]
+Epoch: 1 batch: 52, loss ==> 1.8253746468287249
+ic| epoch: 1, i: 53
+54it [39:31, 43.83s/it]
+Epoch: 1 batch: 53, loss ==> 1.8244353622760412
+ic| epoch: 1, i: 54
+55it [40:15, 43.75s/it]
+Epoch: 1 batch: 54, loss ==> 1.8234389976218894
+ic| epoch: 1, i: 55
+56it [40:59, 43.91s/it]
+Epoch: 1 batch: 55, loss ==> 1.8217023307626898
+ic| epoch: 1, i: 56
+57it [41:43, 43.75s/it]
+Epoch: 1 batch: 56, loss ==> 1.8205853743212563
+ic| epoch: 1, i: 57
+58it [42:27, 43.92s/it]
+Epoch: 1 batch: 57, loss ==> 1.8189444834725899
+ic| epoch: 1, i: 58
+59it [43:12, 44.20s/it]
+Epoch: 1 batch: 58, loss ==> 1.817153005764402
+ic| epoch: 1, i: 59
+60it [43:57, 44.49s/it]
+Epoch: 1 batch: 59, loss ==> 1.8159155158673304
+ic| epoch: 1, i: 60
+61it [44:41, 44.35s/it]
+Epoch: 1 batch: 60, loss ==> 1.8149190505345663
+ic| epoch: 1, i: 61
+62it [45:26, 44.54s/it]
+Epoch: 1 batch: 61, loss ==> 1.8132276359151622
+ic| epoch: 1, i: 62
+63it [46:12, 45.10s/it]
+Epoch: 1 batch: 62, loss ==> 1.8118271750788535
+ic| epoch: 1, i: 63
+64it [46:56, 44.81s/it]
+Epoch: 1 batch: 63, loss ==> 1.8107991445632208
+ic| epoch: 1, i: 64
+65it [47:39, 44.26s/it]
+Epoch: 1 batch: 64, loss ==> 1.8096902519464493
+ic| epoch: 1, i: 65
+66it [48:22, 43.81s/it]
+Epoch: 1 batch: 65, loss ==> 1.8089558564699613
+ic| epoch: 1, i: 66
+67it [49:05, 43.58s/it]
+Epoch: 1 batch: 66, loss ==> 1.8076739744706587
+ic| epoch: 1, i: 67
+68it [49:49, 43.73s/it]
+Epoch: 1 batch: 67, loss ==> 1.806334109448675
+ic| epoch: 1, i: 68
+69it [50:33, 43.77s/it]
+Epoch: 1 batch: 68, loss ==> 1.8046737418455236
+ic| epoch: 1, i: 69
+70it [51:17, 43.83s/it]
+Epoch: 1 batch: 69, loss ==> 1.803462951079659
+ic| epoch: 1, i: 70
+71it [52:01, 43.87s/it]
+Epoch: 1 batch: 70, loss ==> 1.8020329901150294
+ic| epoch: 1, i: 71
+72it [52:44, 43.68s/it]
+Epoch: 1 batch: 71, loss ==> 1.8006707950377128
+ic| epoch: 1, i: 72
+73it [53:28, 43.72s/it]
+Epoch: 1 batch: 72, loss ==> 1.7988071276081934
+ic| epoch: 1, i: 73
+74it [54:12, 43.77s/it]
+Epoch: 1 batch: 73, loss ==> 1.7970748404933983
+ic| epoch: 1, i: 74
+75it [54:57, 44.27s/it]
+Epoch: 1 batch: 74, loss ==> 1.795979235623334
+ic| epoch: 1, i: 75
+76it [55:44, 45.01s/it]
+Epoch: 1 batch: 75, loss ==> 1.795069580078125
+ic| epoch: 1, i: 76
+77it [56:31, 45.39s/it]
+Epoch: 1 batch: 76, loss ==> 1.793314871035124
+ic| epoch: 1, i: 77
+78it [57:17, 45.71s/it]
+Epoch: 1 batch: 77, loss ==> 1.7919468461693107
+ic| epoch: 1, i: 78
+79it [58:03, 45.89s/it]
+Epoch: 1 batch: 78, loss ==> 1.791152679003202
+ic| epoch: 1, i: 79
+80it [58:48, 45.57s/it]
+Epoch: 1 batch: 79, loss ==> 1.7908936527710926
+ic| epoch: 1, i: 80
+81it [59:35, 46.04s/it]
+Epoch: 1 batch: 80, loss ==> 1.789919976890087
+ic| epoch: 1, i: 81
+82it [1:00:22, 46.16s/it]
+Epoch: 1 batch: 81, loss ==> 1.7881130068390458
+ic| epoch: 1, i: 82
+83it [1:01:05, 45.25s/it]
+Epoch: 1 batch: 82, loss ==> 1.7871926252434893
+ic| epoch: 1, i: 83
+84it [1:01:49, 44.93s/it]
+Epoch: 1 batch: 83, loss ==> 1.7865313449537898
+ic| epoch: 1, i: 84
+85it [1:02:33, 44.56s/it]
+Epoch: 1 batch: 84, loss ==> 1.785233540194375
+ic| epoch: 1, i: 85
+86it [1:03:17, 44.53s/it]
+Epoch: 1 batch: 85, loss ==> 1.7849142284954296
+ic| epoch: 1, i: 86
+87it [1:04:03, 44.89s/it]
+Epoch: 1 batch: 86, loss ==> 1.784470872823582
+ic| epoch: 1, i: 87
+88it [1:04:48, 45.09s/it]
+Epoch: 1 batch: 87, loss ==> 1.7832778692245483
+ic| epoch: 1, i: 88
+89it [1:05:34, 45.14s/it]
+Epoch: 1 batch: 88, loss ==> 1.7821493501012975
+ic| epoch: 1, i: 89
+90it [1:06:19, 45.07s/it]
+Epoch: 1 batch: 89, loss ==> 1.7810617109362998
+ic| epoch: 1, i: 90
+91it [1:07:03, 44.91s/it]
+Epoch: 1 batch: 90, loss ==> 1.779561350080702
+ic| epoch: 1, i: 91
+92it [1:07:47, 44.67s/it]
+Epoch: 1 batch: 91, loss ==> 1.7788846348668192
+ic| epoch: 1, i: 92
+93it [1:08:35, 45.52s/it]
+Epoch: 1 batch: 92, loss ==> 1.7776030677816141
+ic| epoch: 1, i: 93
+94it [1:09:23, 46.36s/it]
+Epoch: 1 batch: 93, loss ==> 1.7764336870562645
+ic| epoch: 1, i: 94
+95it [1:10:08, 45.88s/it]
+Epoch: 1 batch: 94, loss ==> 1.7758282904929303
+ic| epoch: 1, i: 95
+96it [1:10:53, 45.61s/it]
+Epoch: 1 batch: 95, loss ==> 1.7748544015382466
+ic| epoch: 1, i: 96
+97it [1:11:37, 45.13s/it]
+Epoch: 1 batch: 96, loss ==> 1.7736283751825492
+ic| epoch: 1, i: 97
+98it [1:12:04, 44.13s/it]
+Epoch: 1 batch: 97, loss ==> 1.7719330222336287
