@@ -12,7 +12,7 @@ class MyException():
 
 # 定义函数
 def func():
-    print('我是一个模块中的func函数')
+    print('我是一个模块中的 func函数')
 
 # 定义变量
 myStr = 'iloveyou'
