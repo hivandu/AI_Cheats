@@ -32,13 +32,13 @@
 
 ### 第 2 卷：扩展 - 数学 ✅
 
-### 第 3 卷：核心知识 (Typing...)
+### 第 3 卷：核心知识 ✅
 
-### 第 4 卷：核心能力培养 
+### 第 4 卷：核心能力培养 （第四卷应该会放在最后来写）
 
 ### 第 5 卷：NLP
 
-### 第 6 卷：BI
+### 第 6 卷：BI ✅ （BI 部分实际已经完成，代码全量上传了，只是文章还未全部发布。）
 
 ### 第 7 卷：CV
 
@@ -50,6 +50,7 @@
 - [Python 篇](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4NzE4MDQzMg==&action=getalbum&album_id=3035995870421073928#wechat_redirect)
 - [数学篇](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4NzE4MDQzMg==&action=getalbum&album_id=3074770001140400130#wechat_redirect)
 - [核心基础](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4NzE4MDQzMg==&action=getalbum&album_id=3123885735829061633#wechat_redirect)
+- [核心 BI](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4NzE4MDQzMg%3D%3D&action=getalbum&album_id=3193965113967132673&subscene=&sessionid=svr_548800ce471&enterid=1704001437&from_msgid=2648751621&from_itemidx=1&count=3&nolastread=1&scene=21#wechat_redirect)
 
 ### [CSDN 上进行查看](https://blog.csdn.net/ivandoo)
 - [Python 部分](https://blog.csdn.net/ivandoo/category_12395294.html)
