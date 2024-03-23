@@ -59,7 +59,7 @@
 
 ### 知乎专栏地址
 
-[茶桁的 AI 秘籍](https://www.zhihu.com/column/c_1424326166602178560)
+[茶桁的 AI 秘籍](https://www.zhihu.com/column/c_1669037511480553472)
 
 ### 方格子
 
