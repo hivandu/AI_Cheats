@@ -1,138 +1,132 @@
-# 专门定义数据变量，存放已经注册的用户信息
-userdict = {} # 用于接收所有用户和密码的字典
-userlist = [] # 用于接收所有用户名的列表
-blackUserList = [] # 定义一个小黑屋专用列表
+# Define data variables to store registered user information
+userdict = {}  # Dictionary to store all usernames and passwords
+userlist = []  # List to store all usernames
+blackUserList = []  # List for blacklisted users
 
-# 定义一个读取所有用户数据的函数
+# Define a function to read all user data
 def readAllUsers():
-    # 读取所有的注册信息
+    # Read all registration information
     with open('./data/user.txt', 'a+', encoding="utf-8") as fp:
         global userdict
         global userlist
-        fp.seek(0,0) # 调整指针到文件头
-        res = fp.readlines() # 按照每一行读取所有用户数据
-        for i in res: # 循环读取每一行数据
-            r = i.strip() # 处理每一行尾部的换行符
+        fp.seek(0,0)  # Move pointer to the beginning of the file
+        res = fp.readlines()  # Read all user data line by line
+        for i in res:  # Loop through each line of data
+            r = i.strip()  # Remove newline characters from each line
             mydict = r.split(':')
             userdict.update({mydict[0]:mydict[1]})
             userlist = userdict.keys()
 
-    # 读取所有黑名单用户
+    # Read all blacklisted users
     with open('./data/black.txt', 'a+', encoding='utf-8') as fp:
         global blackUserList
         fp.seek(0,0)
         res = fp.readlines()
         for i in res:
-            r = i.strip() #
+            r = i.strip()
             blackUserList.append(r)
 
-# 封装一个函数 完成注册功能
+# Define a function to handle registration
 def register():
-    # 定义一个变量，用于控制外循环
+    # Define a variable to control the outer loop
     site = True
-    # 执行循环， 用户名操作
+    # Loop for username operation
     while site:
-        # 用户输入用户名
-        username = input('欢迎注册，请输入用户名：')
+        # Get the username input from the user
+        username = input('Welcome to register, please enter your username: ')
 
-        # 用户名需要检测是否已经存在
+        # Check if the username already exists
         if username in userlist:
-            print('当前用户已经存在，请更换用户名。')
+            print('The username already exists, please choose another one.')
         else:
-            # 利用循环，都正确的时候结束循环。
+            # Loop until everything is correct
             while True:
-                # 用户输入密码
-                password = input('请输入您的密码: ')
+                # Get the password input from the user
+                password = input('Please enter your password: ')
                 
-                # 检测密码长度不能低于 6位
+                # Check if the password length is at least 6 characters
                 if len(password) >= 6:
-                    # 请确认您的密码
-                    re_password = input('请再输入一次您的密码: ')
-                    # 检测密码和确认密码是否一致
+                    # Confirm your password
+                    re_password = input('Please enter your password again: ')
+                    # Check if the password and confirmation match
                     if re_password == password:
-                        # 用户名和密码都正确，可以写入文件
-                        # 打开文件，写入数据
+                        # Username and password are correct, write to file
                         with open('./data/user.txt', 'a+', encoding='UTF-8') as fp:
                             fp.write(f'{username}:{password}\n')
-                        print(f'注册成功：用户名:{username}')
-                        # 结束循环
-                        # 结束外循环
+                        print(f'Registration successful: Username: {username}')
+                        # End the loop
                         site = False
-                        # 结束内循环
                         break
                     else:
-                        print('两次输入的密码不同，请重新输入。', username, password, re_password)
+                        print('The passwords do not match, please try again.', username, password, re_password)
 
-                # 密码长度不够
+                # Password length is insufficient
                 else:
-                    print('密码格式不正确：', username, password)
+                    print('Password format is incorrect:', username, password)
 
-
-# 封装登录函数
+# Define a function to handle login
 def login():
-    
-    # 自定义变量, 控制登录外循环
+    # Custom variable to control the login loop
     isLogin = True
-    # 定义变量，用来记录用户输入密码错误次数
+    # Define a variable to count the number of password errors
     errorNum = 3
 
-    # 创建循环
+    # Create loop
     while isLogin:
-
-        # 获取用户登录时输入的用户名
-        username = input('欢迎登录，请输入您的用户名：')
+        # Get the username input from the user
+        username = input('Welcome to login, please enter your username: ')
         
-        # 检测当前用户名是否存在
+        # Check if the username is in the blacklist
         if username in blackUserList:
-            print('您的账户已经被锁定，并且还未给管理员上供品。')
-            isLogin = False # 结束外循环
+            print('Your account has been locked and you have not yet provided a tribute to the administrator.')
+            isLogin = False  # End the outer loop
         elif username in userlist:
             while True:
-                # 让用户输入密码
-                pwd = input('请输入您的密码：')
-                # 检测用户输入的密码是否正确
+                # Get the password input from the user
+                pwd = input('Please enter your password: ')
+                # Check if the entered password is correct
                 if pwd == userdict[username]:
                     print(pwd)
-                    isLogin = False # 结束外循环
-                    break # 结束内循环
+                    isLogin = False  # End the outer loop
+                    break  # End the inner loop
                 else:
-                    # 密码错误，修改变量次数
+                    # Password error, decrement error count
                     errorNum -= 1
-                    # 判断当前密码错误次数
+                    # Check current password error count
                     if errorNum == 0:
-                        print('给你机会你不中用啊细狗。账户已锁定，请联系管理人员并上供品。')
-                        # 锁定当前账户，把锁定的用户拉入黑名单
+                        print('You were given a chance and you still failed. Account is locked. Please contact the administrator and provide a tribute.')
+                        # Lock the current account and add the user to the blacklist
                         with open('./data/black.txt', 'a+', encoding='UTF-8') as fp:
                             fp.write(username+'\n')
                         isLogin = False
                         break
                     else:
-                        print(f'您的密码输入有误, 您还能再尝试{errorNum}次。')
+                        print(f'Your password is incorrect. You have {errorNum} attempts remaining.')
         else:
-            # 用户名不存在
-            print('用户名错误，亲重新输入')
+            # Username does not exist
+            print('Username error, please try again.')
 
-# 判断当前脚本是否作为一个主进程脚本在执行
+# Check if the script is being run as the main program
 if __name__ == '__main__':
     '''
-    这里的代码，只有在使用 Python解释器直接运行时才会执行
-    如果当前脚本作为了模块被其他文件导入后使用，那么这个地方的代码不会执行
-    因此这个地方的代码，适合写当前脚本中的一些测试，这样不会影响其他脚本
+    The code here will only execute when the script is run directly with the Python interpreter.
+    If the script is imported as a module into another file, this code will not run.
+    Therefore, this is a good place to write some tests for the current script, as it will not affect other scripts.
     '''
-    # 调用初始化方法，加载数据
+    # Call the initialization method to load data
     readAllUsers()
     
     isBegin = True
     while isBegin:
         myStr = '''
         ======================
-        ** 登录（0） 注册（1）**
+        ** Login (0) Register (1)**
         ======================
         '''
         print(myStr)
 
-        # 让用户选择对应的操作
-        num = input('请输入对应的序号，体验功能：')
+        # Prompt the user to choose an option
+        num = input('Please enter the corresponding number to use the feature: ')
         if num == '0':
             login()
             isBegin = False
@@ -140,5 +134,5 @@ if __name__ == '__main__':
             register()
             isBegin = False
         else:
-            print('后续功能还在开发中。')
+            print('Subsequent features are still under development.')
             isBegin = False
