@@ -1,3 +1,6 @@
 [submodule "Core BI/CV_Core"]
 	path = Core BI/CV_Core
 	url = git@github.com:hivandu/CV_Core.git
+[submodule "Core_CV"]
+	path = Core_CV
+	url = git@github.com:hivandu/CV_Core.git
